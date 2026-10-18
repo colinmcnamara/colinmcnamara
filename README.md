@@ -1,9 +1,11 @@
 # Colin McNamara
 
-I work on LLM inference and routing, and I fix the protocol bugs I find in it upstream, where every user gets the fix. Austin, Texas.
+I'm exploring how mixtures of models can enhance human, system and agentic cognition, as we augment ourselves with fleets of digital entities.
+
+Right now I'm learning these bleeding-edge codebases from the data plane up. Much of that work makes `/v1/messages` (Anthropic) a first-class citizen alongside `/v1/chat/completions` (OpenAI). In practice that means finding bugs, fixing them upstream so every user gets the fix, and learning how it all works along the way. Austin, Texas.
 
 - Member of the **Data Plane & Networking** work group in [vLLM Semantic Router](https://vllm-sr.ai/community/work-groups)
-- Run **[AIMUG](https://aimug.org)**, the AI Middleware Users Group: free monthly meetups in Austin and online
+- Run **[AIMUG](https://aimug.org)**, the AI Middleware Users Group: 2,200+ members, free monthly meetups in Austin and online
 - At [AHEAD](https://www.ahead.com)
 
 ## Security
