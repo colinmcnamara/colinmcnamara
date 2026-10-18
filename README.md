@@ -6,11 +6,14 @@ I work on LLM inference and routing, and I fix the protocol bugs I find in it up
 - Run **[AIMUG](https://aimug.org)**, the AI Middleware Users Group: free monthly meetups in Austin and online
 - At [AHEAD](https://www.ahead.com)
 
+## Security
+
+- **[GHSA-xr66-pq9r-2c8j](https://github.com/vllm-project/semantic-router/security/advisories/GHSA-xr66-pq9r-2c8j)** (high), vLLM Semantic Router: the Router's Istio EnvoyFilter reused the `ext_proc` filter name, so a client header could bypass the Router. Reported and [fixed](https://github.com/vllm-project/semantic-router/commit/363a1765da64b4dc8fd922396d715e12dfd958ed).
+
 ## Merged upstream
 
 | Project | PR | Fix |
 |---|---|---|
-| vLLM Semantic Router | [GHSA-xr66-pq9r-2c8j](https://github.com/vllm-project/semantic-router/security/advisories/GHSA-xr66-pq9r-2c8j) | Security fix (high): give the Router's Istio `ext_proc` filter its own name, so a client header can't bypass the Router. Reported and [fixed](https://github.com/vllm-project/semantic-router/commit/363a1765da64b4dc8fd922396d715e12dfd958ed). |
 | NVIDIA Switchyard | [#884](https://github.com/NVIDIA-NeMo/Switchyard/pull/884) | Return HTTP 502 for buffered Chat `abort`, `error` and `repetition` finish reasons |
 | vLLM Semantic Router | [#4901](https://github.com/vllm-project/semantic-router/pull/4901) | Accept vLLM's integer error code in Chat stream decoding |
 | vLLM Semantic Router | [#4931](https://github.com/vllm-project/semantic-router/pull/4931) | Decode a Chat target's opening delta immediately (co-author) |
