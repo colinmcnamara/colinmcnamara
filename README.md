@@ -6,7 +6,7 @@ Right now I'm learning these bleeding-edge codebases from the data plane up. Muc
 
 - Member of the **Data Plane & Networking** work group in [vLLM Semantic Router](https://vllm-sr.ai/community/work-groups)
 - Run **[AIMUG](https://aimug.org)**, the AI Middleware Users Group: 2,200+ members, free monthly meetups in Austin and online
-- At [AHEAD](https://www.ahead.com)
+- Field CTO at [AHEAD](https://www.ahead.com), where I work with enterprise customers on AI infrastructure
 
 ## Security
 
