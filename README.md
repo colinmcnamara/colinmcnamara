@@ -1,6 +1,6 @@
 # Colin McNamara
 
-I'm exploring how mixtures of models through semantic routing can enhance human, system and agentic cognition, as we augment ourselves with fleets of digital entities.
+I'm exploring how mixtures of models can enhance human, system, and agentic cognition through semantic routing, as we augment ourselves with fleets of digital entities.
 
 Right now I'm learning these bleeding-edge codebases from the data plane up. Much of that work makes `/v1/messages` (Anthropic) a first-class citizen alongside `/v1/chat/completions` (OpenAI). In practice that means finding bugs, fixing them upstream so every user gets the fix, and learning how it all works along the way. Austin, Texas.
 
