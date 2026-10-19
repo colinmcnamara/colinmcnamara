@@ -10,7 +10,9 @@ Right now I'm learning these bleeding-edge codebases from the data plane up. Muc
 
 ## Security
 
-- **[GHSA-xr66-pq9r-2c8j](https://github.com/vllm-project/semantic-router/security/advisories/GHSA-xr66-pq9r-2c8j)** (high), vLLM Semantic Router: the Router's Istio EnvoyFilter reused the `ext_proc` filter name, so a client header could bypass the Router. Reported and [fixed](https://github.com/vllm-project/semantic-router/commit/363a1765da64b4dc8fd922396d715e12dfd958ed).
+| Project | Advisory | Severity | Finding |
+|---|---|---|---|
+| vLLM Semantic Router | [GHSA-xr66-pq9r-2c8j](https://github.com/vllm-project/semantic-router/security/advisories/GHSA-xr66-pq9r-2c8j) | High | The Router's Istio EnvoyFilter reused the `ext_proc` filter name, so a client header could bypass the Router. Reported and [fixed](https://github.com/vllm-project/semantic-router/commit/363a1765da64b4dc8fd922396d715e12dfd958ed). |
 
 ## Merged upstream
 
