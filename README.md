@@ -2,11 +2,11 @@
 
 I'm exploring how mixtures of models can enhance human, system, and agentic cognition through semantic routing, as we augment ourselves with fleets of digital entities.
 
-Right now I'm learning these bleeding-edge codebases from the data plane up. Much of that work makes `/v1/messages` (Anthropic) a first-class citizen alongside `/v1/chat/completions` (OpenAI). In practice that means finding bugs, fixing them upstream so every user gets the fix, and learning how it all works along the way. Austin, Texas.
+I'm currently deep-diving into codebases at the boundary of pure research and commercial implementation, from the data plane up. Much of that work entails making `/v1/messages` (Anthropic) a first-class citizen alongside `/v1/chat/completions` (OpenAI). In practice, that means finding bugs, fixing them upstream so every user gets the fix, and learning how it all works along the way. Austin, Texas.
 
 - Member of the **Data Plane & Networking** work group in [vLLM Semantic Router](https://vllm-sr.ai/community/work-groups)
 - Run **[AIMUG](https://aimug.org)**, the AI Middleware Users Group: 2,200+ members, free monthly meetups in Austin and online
-- Field CTO at [AHEAD](https://www.ahead.com), where I work with enterprise customers on AI infrastructure
+- Field CTO at [AHEAD](https://www.ahead.com), where I work with enterprise and hyperscale customers on AI infrastructure
 
 ## Security
 
