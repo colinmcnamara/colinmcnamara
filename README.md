@@ -18,6 +18,7 @@ I'm currently deep-diving into codebases at the boundary of pure research and co
 
 | Project | PR | Fix |
 |---|---|---|
+| vLLM Semantic Router | [#5150](https://github.com/vllm-project/semantic-router/pull/5150) | Give a Chat client the Router's error frame however the stream is split |
 | NVIDIA Switchyard | [#884](https://github.com/NVIDIA-NeMo/Switchyard/pull/884) | Return HTTP 502 for buffered Chat `abort`, `error` and `repetition` finish reasons |
 | vLLM Semantic Router | [#4901](https://github.com/vllm-project/semantic-router/pull/4901) | Accept vLLM's integer error code in Chat stream decoding |
 | vLLM Semantic Router | [#4931](https://github.com/vllm-project/semantic-router/pull/4931) | Decode a Chat target's opening delta immediately (co-author) |
